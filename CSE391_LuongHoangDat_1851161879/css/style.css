@@ -1,0 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*header*/
+.navbar {
+    align-items: center;
+}
+/*slider*/
+.slide {
+    width: 100%;
+}
+.banner {
+    width: auto;
+    height: auto;
+}
+/**/

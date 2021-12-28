@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/0f0388c3a3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form style="padding: 0;">
+        <div class="title text-info" style="text-align: center;">
+            <h3>Đăng Ký Du Lịch</h3>
+        </div>
+        <div class="form-info" style="background-color: rgb(253, 253, 123);">
+            <div class="row" style="border: 1px solid rgb(120, 217, 255);">
+                <div class="col-md-3">
+                    <label for="exampleInputEmail1" class="form-label">Họ và tên</label>
+                </div>
+                <div class="col-md-9" style="padding: 0">
+                    <input type="input" class="form" id="exampleInputName">
+                </div>
+            </div>
+            <div class="row" style="border-bottom: 1px solid rgb(120, 217, 255);">
+                <div class="col-md-3">
+                    <label for="exampleInputEmail1" class="form-label">Địa Chỉ</label>
+                </div>
+                <div class="col-md-9" style="padding: 0">
+                    <input type="input" class="form" id="exampleInputAddress">
+                </div>
+            </div>
+            <div class="row" style="border: 1px solid rgb(120, 217, 255);">
+                <div class="col-md-3">
+                    <label for="exampleInputEmail1" class="form-label">Điện Thoại</label>
+                </div>
+                <div class="col-md-9" style="padding: 0">
+                    <input type="input" class="form" id="exampleInputPhone">
+                </div>
+            </div>
+            <div class="row" style="border: 1px solid rgb(120, 217, 255);">
+                <div class="col-md-3">
+                    <label class="form-label">Khách Việt Nam</label>
+                </div>
+                <div class="form-check col-md-9">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                </div>
+            </div>
+            <div class="row" style="border: 1px solid rgb(120, 217, 255);">
+                <div class="col-md-3">
+                    <label class="form-label">Phương Tiện</label>
+                </div>
+                <div class="check-radio col-md-9" style="padding: 0">
+                    <div class="form-check-inline">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Máy Bay
+                        </label>
+                      </div>
+                      <div class="form-check-inline">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                          Xe Ô Tô
+                        </label>
+                      </div>
+                </div>
+            </div>
+            <div class="row" style="border: 1px solid rgb(120, 217, 255);">
+                <div class="number-people row">
+                    <p class="col-md-3" style="margin: 0;">Số Lượng Đoàn Khách</p>
+                    <div class="form-people d-flex col-md-9"style="padding: 0;">
+                        <div>
+                            <label for="exampleInputEmail1" class="form-label">Người Lớn</label>
+                            <input type="input" class="form" id="exampleInputNL" >
+                        </div>
+                            <div class="px-3">
+                            <label for="exampleInputPassword1" class="form-label">Trẻ Em</label>
+                            <input type="input" class="form" id="exampleInputTE">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="border: 1px solid rgb(120, 217, 255);">
+                <div class="col-md-3">
+                    <label class="form-label">Ghi Chú Thêm</label>
+                </div>
+                <div class="col-md-9" style="padding: 0">
+                    <input type="input" class="form" id="exampleInputPhone">
+                </div>
+            </div>
+            <div class="row">
+                <div class="btn">
+                    <button type="button" class="btn btn-secondary">Đồng Ý</button>
+                    <button type="button" class="btn btn-secondary">Reset</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="tb" id="form-tb">
+                </div>
+            </div>
+        </div>
+      </form>
+    <script src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
